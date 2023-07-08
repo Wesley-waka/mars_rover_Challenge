@@ -11,10 +11,10 @@ RSpec.describe 'Rover Unit' do
       expect(rovers.length).to eq(2)
 
       expect(rovers[0]).to be_an_instance_of(Rover)
-      expect(rovers[0].to_s).to eq('1 2 N')
+      expect(rovers[0].to_s).to eq('1 3 N')
 
       expect(rovers[1]).to be_an_instance_of(Rover)
-      expect(rovers[1].to_s).to eq('3 3 E')
+      expect(rovers[1].to_s).to eq('5 1 E')
     end
   end
 
